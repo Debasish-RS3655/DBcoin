@@ -1,0 +1,21 @@
+{
+  "name": "dbcoin",
+  "version": "1.0.0",
+  "description": "basic implementation of a bitcoin like blockchain in Node JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./src/tests/test.js",
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "elliptic": "^6.5.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "nodemon": "^3.1.0"
+  }
+}
